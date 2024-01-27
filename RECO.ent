@@ -1,13 +1,11 @@
 {
   "wad" "\sierra\half-life\valve\halflife.wad;"
   "mapversion" "220"
-  "mapversion" "220"
   "MaxRange" "4096"
   "sounds" "1"
   "freeroam" "1"
   "startdark" "1"
   "skyname" "space"
-  "classname" "worldspawn"
   "classname" "worldspawn"
 }
 {

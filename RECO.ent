@@ -900,7 +900,7 @@
   "origin" "-952 704 -932"
   "fadeout" "1"
   "targetname" "surprise_wav"
-  "message" "REvil/SUPPLIEZ!.wav"
+  "message" "REvil/SUPPLIEZ.wav"
   "pitchstart" "100"
   "pitch" "100"
   "health" "10"
@@ -1159,6 +1159,7 @@
   "model" "models/stickygib.mdl"
   "target" "wedge_mm"
   "angles" "0 0 0"
+  "movetype" "5"
   "classname" "item_security"
 }
 {
@@ -1189,12 +1190,18 @@
   "classname" "multisource"
 }
 {
-  "origin" "-900 1732 -944"
+  "classname" "item_security"
   "model" "models/reco/IModels/goldshield.mdl"
   "targetname" "goldshield"
   "target" "shield_mm"
-  "angles" "0 270 0"
-  "classname" "item_security"
+  "angles" "0 0 0"
+  "rendercolor" "0 0 0"
+  "sequencename" "idle"
+  "scale" "1"
+  "minhullsize" "0 0 0"
+  "maxhullsize" "0 0 0"
+  "movetype" "5"
+  "origin" "-904 1730 -945"
 }
 {
   "model" "*85"
@@ -1353,6 +1360,7 @@
   "target" "slidea_mm"
   "targetname" "slide1"
   "angles" "0 0 0"
+  "movetype" "0"
   "classname" "item_security"
 }
 {
@@ -1942,6 +1950,7 @@
   "target" "redf_mm"
   "targetname" "redfuse"
   "angles" "0 0 0"
+  "movetype" "0"
   "classname" "item_security"
 }
 {
@@ -2789,6 +2798,7 @@
   "target" "cureE472_mm"
   "model" "models/w_antidote.mdl"
   "angles" "0 0 0"
+  "movetype" "5"
   "classname" "item_security"
 }
 {
@@ -3150,7 +3160,7 @@
 }
 {
   "origin" "-904 1608 -912"
-  "message" "REvil/lookout!.wav"
+  "message" "REvil/lookout.wav"
   "targetname" "surprise2_wav"
   "pitchstart" "100"
   "pitch" "100"
@@ -3211,7 +3221,7 @@
 }
 {
   "origin" "-1192 1672 -736"
-  "message" "REvil/ZOMBIE ATTACK!.wav"
+  "message" "REvil/ZOMBIE_ATTACK.wav"
   "targetname" "zombieattack_wav"
   "pitchstart" "100"
   "pitch" "100"
@@ -3838,6 +3848,7 @@
   "target" "lockpick_mm"
   "targetname" "lockpick"
   "angles" "0 0 0"
+  "movetype" "5"
   "classname" "item_security"
 }
 {
@@ -4020,6 +4031,7 @@
   "model" "models/reco/IModels/ring.mdl"
   "targetname" "ring"
   "angles" "0 0 0"
+  "movetype" "5"
   "classname" "item_security"
 }
 {
@@ -4082,6 +4094,7 @@
   "target" "slide2_mm"
   "targetname" "slide2"
   "angles" "0 0 0"
+  "movetype" "0"
   "classname" "item_security"
 }
 {
@@ -4537,6 +4550,7 @@
   "model" "models/reco/IModels/resource_cd.mdl"
   "targetname" "modisk"
   "angles" "0 0 0"
+  "movetype" "0"
   "classname" "item_security"
 }
 {
@@ -4851,6 +4865,7 @@
   "model" "models/reco/IModels/allied_ammo.mdl"
   "targetname" "shotbox"
   "angles" "0 0 0"
+  "movetype" "5"
   "classname" "item_security"
 }
 {
@@ -4922,6 +4937,7 @@
   "model" "models/reco/IModels/allied_ammo.mdl"
   "targetname" "357shells"
   "angles" "0 0 0"
+  "movetype" "5"
   "classname" "item_security"
 }
 {
@@ -5093,6 +5109,7 @@
   "model" "models/reco/IModels/allied_ammo.mdl"
   "targetname" "9mmrounds"
   "angles" "0 0 0"
+  "movetype" "5"
   "classname" "item_security"
 }
 {
@@ -5123,6 +5140,7 @@
   "targetname" "valve"
   "model" "models/reco/IModels/spiggot.mdl"
   "angles" "0 42 0"
+  "movetype" "5"
   "classname" "item_security"
 }
 {
@@ -5207,6 +5225,7 @@
   "target" "security_mm"
   "targetname" "security"
   "angles" "0 298 0"
+  "movetype" "5"
   "classname" "item_security"
 }
 {
@@ -6024,6 +6043,7 @@
   "model" "models/reco/IModels/Adrenaline.mdl"
   "angles" "0 0 0"
   "spawnflags" "1024"
+  "movetype" "5"
   "classname" "item_healthkit"
 }
 {
@@ -6031,6 +6051,7 @@
   "model" "models/reco/IModels/Adrenaline.mdl"
   "angles" "0 0 0"
   "spawnflags" "1024"
+  "movetype" "5"
   "classname" "item_healthkit"
 }
 {
@@ -6038,6 +6059,7 @@
   "model" "models/reco/IModels/Adrenaline.mdl"
   "angles" "0 0 0"
   "spawnflags" "1024"
+  "movetype" "5"
   "classname" "item_healthkit"
 }
 {
@@ -6045,6 +6067,7 @@
   "model" "models/reco/IModels/Adrenaline.mdl"
   "angles" "0 0 0"
   "spawnflags" "1024"
+  "movetype" "5"
   "classname" "item_healthkit"
 }
 {
@@ -6052,6 +6075,7 @@
   "model" "models/reco/IModels/Adrenaline.mdl"
   "angles" "0 0 0"
   "spawnflags" "1024"
+  "movetype" "5"
   "classname" "item_healthkit"
 }
 {
@@ -6059,6 +6083,7 @@
   "model" "models/reco/IModels/Adrenaline.mdl"
   "angles" "0 0 0"
   "spawnflags" "1024"
+  "movetype" "5"
   "classname" "item_healthkit"
 }
 {
@@ -6066,6 +6091,7 @@
   "model" "models/reco/IModels/Adrenaline.mdl"
   "angles" "0 0 0"
   "spawnflags" "1024"
+  "movetype" "5"
   "classname" "item_healthkit"
 }
 {
@@ -6073,6 +6099,7 @@
   "model" "models/reco/IModels/Adrenaline.mdl"
   "angles" "0 0 0"
   "spawnflags" "1024"
+  "movetype" "5"
   "classname" "item_healthkit"
 }
 {
@@ -6080,6 +6107,7 @@
   "model" "models/reco/IModels/Adrenaline.mdl"
   "angles" "0 0 0"
   "spawnflags" "1024"
+  "movetype" "5"
   "classname" "item_healthkit"
 }
 {
@@ -6087,6 +6115,7 @@
   "model" "models/reco/IModels/Adrenaline.mdl"
   "angles" "0 180 0"
   "spawnflags" "1024"
+  "movetype" "5"
   "classname" "item_healthkit"
 }
 {
@@ -6483,6 +6512,7 @@
   "target" "getstatue1_mm"
   "targetname" "statue"
   "angles" "0 0 0"
+  "movetype" "5"
   "classname" "item_security"
 }
 {
@@ -7107,6 +7137,7 @@
   "model" "models/reco/IModels/Adrenaline.mdl"
   "angles" "0 315 0"
   "spawnflags" "1024"
+  "movetype" "5"
   "classname" "item_healthkit"
 }
 {
@@ -7533,6 +7564,7 @@
   "target" "flare_mm"
   "targetname" "flare"
   "angles" "0 0 0"
+  "movetype" "0"
   "classname" "item_security"
 }
 {
@@ -9120,12 +9152,27 @@
   "classname" "squadmaker"
 }
 {
-  "origin" "944 1392 -792"
+  "classname" "info_node"
+  "activity" "4"
+  "origin" "1004 1377 -796"
+}
+{
+  "classname" "info_node"
+  "activity" "4"
+  "origin" "1004 1617 -796"
+}
+{
+  "classname" "info_node"
+  "activity" "4"
+  "origin" "1201 1617 -784"
+}
+{
+  "origin" "944 1392 -796"
   "displayname" "Mathias Odman"
   "freeroam" "1"
   "model" "models/reco/sci.mdl"
   "health" "9999"
-  "TriggerCondition" "10"
+  "TriggerCondition" "11"
   "TriggerTarget" "scirun2_ss"
   "targetname" "scirun2"
   "maxhullsize" "0 0 0"
@@ -9183,6 +9230,7 @@
   "model" "models/reco/IModels/brownshield.mdl"
   "targetname" "woodenshield"
   "angles" "0 321 0"
+  "movetype" "0"
   "classname" "item_security"
 }
 {
@@ -9417,6 +9465,7 @@
   "model" "models/reco/IModels/w_kevlar.mdl"
   "angles" "0 0 0"
   "spawnflags" "1024"
+  "movetype" "0"
   "classname" "item_battery"
 }
 {
@@ -9424,6 +9473,7 @@
   "model" "models/reco/IModels/w_kevlar.mdl"
   "angles" "0 0 0"
   "spawnflags" "1024"
+  "movetype" "5"
   "classname" "item_battery"
 }
 {
@@ -9431,6 +9481,7 @@
   "model" "models/reco/IModels/w_kevlar.mdl"
   "angles" "0 212 0"
   "spawnflags" "1024"
+  "movetype" "5"
   "classname" "item_battery"
 }
 {
@@ -9438,6 +9489,7 @@
   "model" "models/reco/IModels/w_kevlar.mdl"
   "angles" "0 0 0"
   "spawnflags" "1024"
+  "movetype" "5"
   "classname" "item_battery"
 }
 {
@@ -9445,6 +9497,7 @@
   "model" "models/reco/IModels/w_kevlar.mdl"
   "angles" "0 0 0"
   "spawnflags" "1024"
+  "movetype" "5"
   "classname" "item_battery"
 }
 {
@@ -9452,6 +9505,7 @@
   "model" "models/reco/IModels/w_kevlar.mdl"
   "angles" "0 0 0"
   "spawnflags" "1024"
+  "movetype" "0"
   "classname" "item_battery"
 }
 {
@@ -9459,6 +9513,7 @@
   "model" "models/reco/IModels/w_kevlar.mdl"
   "angles" "0 240 0"
   "spawnflags" "1024"
+  "movetype" "5"
   "classname" "item_battery"
 }
 {
@@ -9466,6 +9521,7 @@
   "model" "models/reco/IModels/w_kevlar.mdl"
   "angles" "0 127 0"
   "spawnflags" "1024"
+  "movetype" "5"
   "classname" "item_battery"
 }
 {
@@ -9473,6 +9529,7 @@
   "model" "models/reco/IModels/w_kevlar.mdl"
   "angles" "0 135 0"
   "spawnflags" "1024"
+  "movetype" "5"
   "classname" "item_battery"
 }
 {
@@ -9480,6 +9537,7 @@
   "model" "models/reco/IModels/w_kevlar.mdl"
   "angles" "0 0 0"
   "spawnflags" "1024"
+  "movetype" "5"
   "classname" "item_battery"
 }
 {
@@ -9848,6 +9906,7 @@
   "model" "models/reco/IModels/w_kevlar.mdl"
   "angles" "0 0 0"
   "spawnflags" "1024"
+  "movetype" "5"
   "classname" "item_battery"
 }
 {
@@ -10108,4 +10167,11 @@
   "rendercolor" "0 0 0"
   "angles" "0 45 0"
   "classname" "squadmaker"
+}
+{
+  "classname" "ammo_spore"
+  "angles" "-90 0 0"
+  "rendercolor" "0 0 0"
+  "movetype" "5"
+  "origin" "2902 578 -801"
 }

@@ -1136,12 +1136,14 @@
 {
   "model" "*81"
   "target" "ghitem_mm"
+  "master" "wedge_ms"
+  "targetname" "pedestal_zone"
   "spawnflags" "6"
   "classname" "trigger_once"
 }
 {
   "model" "*82"
-  "targetname" "wedge_tg"
+  "targetname" "wedge_brush"
   "rendercolor" "0 0 0"
   "spawnflags" "1"
   "classname" "func_wall_toggle"
@@ -1149,7 +1151,7 @@
 {
   "model" "*83"
   "master" "wedge_ms"
-  "target" "wedge_tg"
+  "target" "wedge_placed_mm"
   "classname" "trigger_once"
 }
 {
@@ -1510,6 +1512,8 @@
   "friction" "50"
   "health" "1"
   "rendercolor" "0 0 0"
+  "targetname" "pedestal"
+  "spawnflags" "1024"
   "classname" "func_pushable"
 }
 {
@@ -2979,7 +2983,7 @@
 }
 {
   "origin" "-784 1672 -868"
-  "message" "Your team has aquired a small godess statue."
+  "message" "Your team has aquired a small goddess statue."
   "targetname" "ghitem_txt"
   "channel" "1"
   "fxtime" "0.25"
@@ -6924,8 +6928,9 @@
 }
 {
   "model" "*219"
+  "origin" "36 4 12"
   "rendermode" "2"
-  "targetname" "wedge_tg"
+  "targetname" "pedestal_block_until_wedge"
   "rendercolor" "0 0 0"
   "classname" "func_wall_toggle"
 }
@@ -10172,4 +10177,54 @@
   "rendercolor" "0 0 0"
   "movetype" "5"
   "origin" "2902 578 -801"
+}
+{
+  "origin" "-644 1592 -960"
+  "pedestal_block_until_wedge" "0#0"
+  "wedge_brush" "0#1"
+  "targetname" "wedge_placed_mm"
+  "classname" "multi_manager"
+}
+{
+  "model" "*209"
+  "origin" "-92 656 -188"
+  "frags" "0"
+  "targetname" "pedestal_block_until_wedge"
+  "spawnflags" "20"
+  "classname" "func_clip"
+}
+{
+  "model" "*209"
+  "origin" "-92 656 -108"
+  "frags" "0"
+  "targetname" "pedestal_block_until_wedge"
+  "spawnflags" "20"
+  "classname" "func_clip"
+}
+{
+  "model" "*209"
+  "origin" "-150 720 -188"
+  "frags" "0"
+  "targetname" "pedestal_block"
+  "spawnflags" "20"
+  "classname" "func_clip"
+}
+{
+  "model" "*209"
+  "origin" "-150 720 -108"
+  "frags" "0"
+  "targetname" "pedestal_block"
+  "spawnflags" "20"
+  "classname" "func_clip"
+}
+{
+  "model" "*80"
+  "origin" "-656 1740 -944"
+  "angles" "0 180 0"
+  "pushmode" "1"
+  "speed" "512"
+  "zhlt_invisible" "1"
+  "targetname" "pedestal_block"
+  "spawnflags" "76"
+  "classname" "trigger_push"
 }
